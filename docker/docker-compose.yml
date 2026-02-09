@@ -1,0 +1,7 @@
+services:
+  dm:
+    build: .
+    container_name: dm
+    command: /server
+    ports:
+      - "0.0.0.0:9061:9061"
